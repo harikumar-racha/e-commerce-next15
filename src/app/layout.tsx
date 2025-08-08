@@ -11,7 +11,7 @@ const promptFont =  Prompt({
 });
 
 export const metadata: Metadata = {
-  title: "Storebrand - Premium Products Testing",
+  title: "Storebrand - Premium Products",
   description: "E-Commerce Store built with Next.JS",
 };
 
