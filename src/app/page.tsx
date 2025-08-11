@@ -1,8 +1,11 @@
-export default function Home() {
-  return (
-   <div>Storebrand
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
-    <i className="bx bx-sun"></i>
-   </div>
+export default function Homepage() {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navigation />
+      <Footer />
+    </div>
   );
 }
