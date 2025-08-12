@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Homepage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pt-24">
       <Navigation />
       <main className="flex-grow">
         <h1>Welcome to the homepage</h1>

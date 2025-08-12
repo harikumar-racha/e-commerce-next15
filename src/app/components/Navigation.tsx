@@ -22,6 +22,22 @@ const Navigation = () => {
               </button>
             </form>
           </div>
+
+          <div className='hidden md:flex items-center space-x-4'>
+            <button className='text-white/90 hover:text-[#edae49] transition-colors p-2 rounded-full hover:bg-white/10 flex items-center'>
+              <i className='bx bx-store text-2xl mr-1'></i>
+              <span className='hidden md:inline text-base font-medium'>Products</span>
+              <i className='bx bx-chevron-down ml-1'></i>
+            </button>
+
+            <Link href='/cart' className='text-white/90 flex justify-center items-center hover:text=[#edae49] p-2 rounded-full hover:bg-white/10 transition-colors'>
+              <i className='bx bx-cart text-2xl'></i>
+            </Link>
+
+            <Link href='/login' className='text-white/90 flex justify-center items-center hover:text-[#edae49] p-2 rounded-full hover:bg-white/10 transition-colors'>
+              <i className='bx bx-user text'></i>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
