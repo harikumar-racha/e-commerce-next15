@@ -9,6 +9,7 @@ export default function StoreLayout({
   return (
     <div className="flex flex-col min-h-screen">
         <Navigation />
+            <div className="pt-24"></div>
             <main className="flex-grow">
                 {children}
             </main>
