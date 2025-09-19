@@ -25,9 +25,9 @@ export default function ProductCard(props: ProductCardProps) {
                     {description}
                 </p>
                 <div className='flex items-center justify-between'>
-                    <span className='text-xl font-bold' style={{color: categoryColor}}>{price}</span>
+                    <span className='text-xl font-bold' style={{color: categoryColor}}>${price}</span>
                     <div className='flex gap-2'>
-                        <Link href="/products/smartphones" className='px-4 py-2 flex justify-center items-center rounded-full text-white text-sm font-medium' style={{backgroundColor: categoryColor}}>View Details</Link>
+                        <Link href={`/products/${categorySlug}/${product.id}`} className='px-4 py-2 flex justify-center items-center rounded-full text-white text-sm font-medium' style={{backgroundColor: categoryColor}}>View Details</Link>
                         <button className='w-10 h-10 rounded-full text-white flex items-center justify-center' style={{backgroundColor: categoryColor}}>
                             <i className='bx bx-cart text-2xl'></i>
                         </button>
